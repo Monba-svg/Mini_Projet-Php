@@ -1,5 +1,5 @@
 
- <h1 class="mt-4">Dashboard</h1>
+                    <h1 class="mt-4">Dashboard</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active">Dashboard</li>
                         </ol>
@@ -28,7 +28,7 @@
                             <div class="col-xl-3 col-md-6">
                                 <div class="card bg-success text-white mb-4">
                                     <div class="card-body fs-5">Pourcentage des tâches finies : 
-                                      <div class="text-center fs-1 me-4">  <?php echo $purcent; ?> %</div>
+                                      <div class="text-center fs-1 me-4">  <?php echo number_format( $purcent,2); ?> %</div>
                                     </div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
                                         <a class="text-white stretched-link" href="index.php?page=indexTache">Voir tâches</a>
